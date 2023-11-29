@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="/quiz-base-frontend/css/game.css" />
+        <title>Game</title>
+    </head>
+    <body>
+        <div class="icons">
+            <a href="/quiz-base-frontend/html/category.html"
+                ><img
+                    src="/quiz-base-frontend/img/home_app_logo_FILL0_wght400_GRAD0_opsz24.svg"
+                    alt=""
+                    class="home-btn"
+            /></a>
+            <a href="#"
+                ><img
+                    src="/quiz-base-frontend/img/bulb-on-svgrepo-com.svg"
+                    alt=""
+                    class="lamp-btn"
+                    id="lamp-btn"
+            /></a>
+            <a href="#"
+                ><img
+                    src="/quiz-base-frontend/img/next-svgrepo-com.svg"
+                    alt=""
+                    class="next-btn"
+                    id="skip-btn"
+            /></a>
+        </div>
+
+        <div class="main-contanier">
+            <div class="container">
+                <div class="question-name">
+                    <h1>Чем питаются колибри?</h1>
+                </div>
+                <div class="content">
+                    <div class="answer-box">
+                        <div class="answer-item">
+                            Нектаром и мелкими насекомыми
+                        </div>
+                        <div class="answer-item">Цветами и фруктами</div>
+                        <div class="answer-item">Мелкой рыбой</div>
+                        <div class="answer-item">Семенами трав</div>
+                    </div>
+                    <button class="submit" id="submit-btn">Submit</button>
+                </div>
+            </div>
+        </div>
+
+        <div id="myModal" class="modal">
+            <div class="main">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>
+                        Колибри преимущественно питаются жидкостью, которую они
+                        получают из определенных растений. Этот напиток содержит
+                        определенный тип пищевых веществ, которые обеспечивают
+                        колибри энергией.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <script src="/quiz-base-frontend/js/game.js"></script>
+    </body>
+</html>

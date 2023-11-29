@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500');
+
+body {
+    background-color: #0abab5;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.button {
+    padding: 16px 42px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    line-height: 1.25;
+    background: #fc6e51;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    position: relative;
+    transition: background-color 0.6s ease;
+    overflow: hidden;
+}
+
+.start-button {
+    padding: 30px 70px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 12px -2px rgba(0, 0, 0, 0.5);
+    line-height: 1.25;
+    background: #fc6e51;
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background-color 0.6s ease;
+    overflow: hidden;
+}
+
+.button:hover {
+    background-color: darkorange;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень при наведении */
+    transform: scale(
+        1.05
+    ); /* Немного увеличиваем размер кнопки при наведении */
+}
+
+.start-button:hover {
+    background-color: darkorange;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Добавляем тень при наведении */
+}
